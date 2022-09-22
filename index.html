@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="imc" id="DivImc">
+            <h1>Calculadora de IMC</h1>
+
+            <!---------------INPUT---------------->
+            <label for="altura">Altura: <br> <input type="number" id="altura" placeholder="Exemplo: 1.75"></label>
+            <label for="peso">Peso: <br> <input type="number" id="peso" placeholder="Exemplo: 60kg"></label>
+
+            <!--------------DIV BUTTON---------------------->
+            <div class="button">
+                <button id="calcular">Calcular</button>
+                <button id="clean">Limpar</button>
+            </div>
+        </div>
+
+        <!----------------RESULT----------------->
+
+        <div class="result" id="res">
+            <h1 id="MyImc"> </h1>
+
+            <h3 id="situation"></h3>
+
+            <p id="para">Confira as classificações</p>
+            <div class="container2">
+                <div class="table-head">
+                    <p>IMC</p>
+                    <hr>
+                    <p>Menor que 18,5</p>
+                    <hr>
+                    <p>Entre 18,5 e 24,9</p>
+                    <hr>
+                    <p>Entre 25,0 e 29,9</p>
+                    <hr>
+                    <p>Entre 30,0 e 39,9</p>
+                    <hr>
+                    <p>Maior que 40,0</p>
+                </div>
+    
+    
+                <div class="table-d1">
+                    <p>Classificação</p>
+                    <hr>
+                    <p>Magreza</p>
+                    <hr>
+                    <p>Normal</p>
+                    <hr>
+                    <p>Sobrepeso</p>
+                    <hr>
+                    <p>Obesidade</p>
+                    <hr>
+                    <p>Obesidade grave</p>
+                    
+                </div>
+    
+                <div class="table-d2">
+                    <p>Obesidade</p>
+                    <hr>
+                    <p>0</p>
+                    <hr>
+                    <p>0</p>
+                    <hr>
+                    <p>I</p>
+                    <hr>
+                    <p>II</p>
+                    <hr>
+                    <p>III</p>
+                </div>
+                
+
+                
+            </div>
+
+            <div class="button">
+                <button id="back">Voltar</button>
+            </div>
+           
+           
+            
+        </div>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
